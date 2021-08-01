@@ -1,0 +1,8 @@
+button {
+  margin-right: 15px;
+  border-radius: 10%;
+
+  &:active {
+    background-color: rgb(20, 39, 255);
+  }
+}

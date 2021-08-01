@@ -1,0 +1,16 @@
+[
+  {
+    "btnName": "Good",
+    "id": 1
+  },
+
+  {
+    "btnName": "Neutral",
+    "id": 2
+  },
+
+  {
+    "btnName": "Bad",
+    "id": 3
+  }
+]
