@@ -13,15 +13,16 @@ const StatisticCounter = () => {
 
   const onLeaveFeedback = event => {
     const currValue = event.target.outerText;
+    const increment = prevState => prevState + 1;
     
     if (currValue==="Good") {
-      return setGood(good + 1);
+      return setGood(increment);
     }
     if (currValue==="Neutral") {
-      return setNeutral(neutral + 1);
+      return setNeutral(increment);
     }
     if (currValue==="Bad") {
-      return setBad(bad + 1);
+      return setBad(increment);
     }
   };
   
